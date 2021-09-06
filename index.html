@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/main.css">
+
+  <title>Placar Volei</title>
+</head>
+<body>
+  <header>
+    <h1>Placar Volei</h1>
+  </header>
+
+  <div class="placar">
+
+    <div class="time A">
+      <span id="A" >00</span>
+      <button onclick= "incrementar('A')" >
+        <img src="images/mais.png" alt="Adicionar">
+      </button> 
+      <button onclick= "decrementar('A')" >
+        <img src="images/menos.png" alt="Retirar">
+      </button>
+    </div>
+
+    <!-- <div class="barra"></div> -->
+
+    <div class="time B">
+      <span id="B" >00</span>
+      <button onclick= "incrementar('B')" >
+        <img src="images/mais.png" alt="Adicionar">
+      </button> 
+      <button onclick= "decrementar('B')" >
+        <img src="images/menos.png" alt="Retirar">
+      </button>
+    </div>
+
+    <button id="reset">RESET</button>
+
+  </div>
+
+  <footer>
+    <p> Desenvolvido por <a href="https://github.com/ClaudionorOjr" target="_blank">ClaudionorOjr <img src="images/github.png" alt="Logo github"></a></p>
+  </footer>
+
+</body>
+  <script src="main.js"></script>
+</html>
