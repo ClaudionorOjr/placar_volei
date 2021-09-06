@@ -12,3 +12,6 @@
 - Live Server
 - Live Sass Compiler
 
+#### Implementações futuras:
+- Nome de cada time
+- Tempo
